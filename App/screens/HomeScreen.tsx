@@ -13,7 +13,7 @@ import LogoScreen from '../components/LogoScreen';
 
 export default function HomeScreen() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor:'#B9EDDD' }}>
       <LogoScreen/>
     </View>
   );
@@ -23,7 +23,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#B9EDDD',
     alignItems: 'center',
     justifyContent: 'center',
   },
